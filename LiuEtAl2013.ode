@@ -181,7 +181,7 @@ a3=flr((step-100*flr(step/100))/10)
 a2=flr((step-1000*flr(step/1000))/100)
 a1=flr(step/1000)
 
-@ total=4000, xlo=0, xhi=5000, ylo=0, yhi=10, bounds=10e30, MAXSTOR=1300000,xp=vs, yp=mk,nout=250, dt=0.01,
+@ total=4000, xlo=0, xhi=5000, ylo=0, yhi=10, bounds=10e30, MAXSTOR=1300000,xp=T, yp=pCREB2,nout=250, dt=0.01,
 @ delay=6000
 #@ output=test.txt
 
